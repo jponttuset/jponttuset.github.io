@@ -1,0 +1,58 @@
+title:            Jordi Pont-Tuset's site
+description:      Welcome to my site.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://localhost:5000
+disqus_shortname:
+
+# Owner/author information
+owner:
+  name:           Jordi Pont-Tuset
+  avatar:         jordi.png
+  bio:            I'm from a small town near Girona, Catalunya. I'm passionate about computer vision, technology, running, and mountains. Looking for new challenges and opportunities for the future.
+  email:          jpont01@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter: jponttuset
+  linkedin: jponttuset
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Curriculum
+    url: /cv/
+  - title: Publications
+    url: /publications/
+  - title: Blog
+    url: /blog/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Zurich
+future:      true
+pygments:    true
+#highlighter: pygments
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
