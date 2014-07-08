@@ -1,7 +1,7 @@
 title:            Jordi Pont-Tuset's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:5000
+url:              http://jponttuset.github.io
 disqus_shortname:
 
 # Owner/author information
