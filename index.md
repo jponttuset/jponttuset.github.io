@@ -3,6 +3,8 @@ layout: page
 title: Me in a Nutshell
 description: "Jordi Pont-Tuset's website"
 tags: [Jekyll, theme, responsive, blog, template]
+image:
+  feature: panorammountainlake-447435.jpg
 ---
 
 I am a mathematician, engineer, and PhD in computer vision by [UPC Barcelonatech](http://www.upc.edu) under the supervision of [Prof. Ferran Marques](https://imatge.upc.edu/web/ferran).
