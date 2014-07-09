@@ -7,12 +7,12 @@ image:
   feature: mountain.jpg
 ---
 
-I am a mathematician, engineer, and PhD in computer vision by [UPC Barcelonatech](http://www.upc.edu) under the supervision of [Prof. Ferran Marques](https://imatge.upc.edu/web/ferran).
+I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a> under the supervision of <a href="https://imatge.upc.edu/web/ferran" target="_blank">Prof. Ferran Marques</a>.
 
 
-During those years, I visited [Prof. Jitendra Malik](http://www.cs.berkeley.edu/~malik/)'s vision group in [UC Berkeley](http://www.berkeley.edu), and I collaborated with with the startup [Fezoo](http://fezoo.cat).
+During those years, I visited <a href="http://www.cs.berkeley.edu/~malik/" target="_blank">Prof. Jitendra Malik</a>'s vision group in <a href="http://www.berkeley.edu" target="_blank">UC Berkeley</a>, and I collaborated with with the startup <a href="http://fezoo.cat" target="_blank">Fezoo</a>.
 
 
-I am currently doing an internship at [Disney Research, Zürich](http://www.disneyresearch.com/research-labs/disney-research-zurich/), under the supervision of [Prof. Aljoscha Smolic](http://zurich.disneyresearch.com/~smolica/).
+I am currently doing an internship at <a href="http://www.disneyresearch.com/research-labs/disney-research-zurich/" target="_blank">Disney Research, Zürich</a>, under the supervision of <a href="http://zurich.disneyresearch.com/~smolica/" target="_blank">Prof. Aljoscha Smolic</a>.
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+
