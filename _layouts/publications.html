@@ -8,6 +8,32 @@
 </head>
 
 <body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1.3em;
+	border: 1px solid silver;
+	padding: 0.3em 0.5em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }</style>
 
 {% include _browser-upgrade.html %}
 
@@ -42,7 +68,7 @@
       <ul class="biblist">
       <!-- Item: Arbelaez2014 -->
       <li ><p>
-      Pablo Arbelaez, J. Pont-Tuset, Jon Barron, F. Marques and Jitendra Malik
+      P. Arbelaez, J. Pont-Tuset, J. Barron, F. Marques and J. Malik
       <br><b>Multiscale Combinatorial Grouping</b><br>
       <i>Computer Vision and Pattern Recognition (CVPR)</i>,
       
