@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: publications
 permalink: /publications/
 title: My Publications
 tags: [publications]
