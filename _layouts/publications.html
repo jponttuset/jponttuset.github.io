@@ -34,6 +34,21 @@ div.bibtex {
 	background: #ffffee;
 }
 div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
 
 {% include _browser-upgrade.html %}
 
