@@ -1,0 +1,275 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<!-- Generated from JabRef by PubList by Truong Nghiem at 10:47 on 2014.07.03. -->
+<ul class="biblist">
+<!-- Item: Arbelaez2014 -->
+<li ><p>
+Pablo Arbelaez, J. Pont-Tuset, Jon Barron, F. Marques and Jitendra Malik
+<br><b>Multiscale Combinatorial Grouping</b><br>
+<i>Computer Vision and Pattern Recognition (CVPR)</i>,
+
+
+
+
+2014
+
+<br />
+<a href="javascript:toggleBibtex('Arbelaez2014')">[BibTeX]</a>
+
+<a href="https://imatge.upc.edu/web/sites/default/files/pub/cArbelaez14.pdf">[PDF]</a> <a href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/">
+[Code]</a>
+</p>
+<div id="bib_Arbelaez2014" class="bibtex noshow">
+<pre>
+@inproceedings{Arbelaez2014,
+author = {Arbelaez, Pablo and Pont-Tuset, J. and Barron, Jon and Marques, F. and Malik, Jitendra},
+title = {Multiscale Combinatorial Grouping},
+booktitle = {Computer Vision and Pattern Recognition (CVPR)},
+year = {2014}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Pont-Tuset2013 -->
+<li ><p>
+J. Pont-Tuset and F. Marques
+<br><b>Measures and Meta-Measures for the Supervised Evaluation of Image Segmentation</b><br>
+<i>Computer Vision and Pattern Recognition (CVPR)</i>,
+
+
+
+
+2013
+
+<br />
+<a href="javascript:toggleBibtex('Pont-Tuset2013')">[BibTeX]</a>
+
+<a href="https://imatge.upc.edu/web/sites/default/files/pub/cPont-Tuset13.pdf">[PDF]</a> <a href="https://imatge.upc.edu/web/resources/supervised-evaluation-image-segmentation">
+[Code]</a>
+</p>
+<div id="bib_Pont-Tuset2013" class="bibtex noshow">
+<pre>
+@inproceedings{Pont-Tuset2013,
+author = {Pont-Tuset, J. and Marques, F.},
+title = {Measures and Meta-Measures for the Supervised Evaluation of Image Segmentation},
+booktitle = {Computer Vision and Pattern Recognition (CVPR)},
+year = {2013}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Pont-Tuset2012c -->
+<li ><p>
+J. Pont-Tuset and F. Marques
+<br><b>Supervised Assessment of Segmentation Hierarchies</b><br>
+<i>European Conference on Computer Vision (ECCV)</i>,
+
+
+
+
+2012
+
+<br />
+<a href="javascript:toggleBibtex('Pont-Tuset2012c')">[BibTeX]</a>
+
+<a href="https://imatge.upc.edu/web/sites/default/files/pub/cPont-Tuset12.pdf">[PDF]</a> <a href="https://imatge.upc.edu/web/resources/supervised-assessment-segmentation-hierarchies">
+[Code]</a>
+</p>
+<div id="bib_Pont-Tuset2012c" class="bibtex noshow">
+<pre>
+@inproceedings{Pont-Tuset2012c,
+author = {Pont-Tuset, J. and Marques, F.},
+title = {Supervised Assessment of Segmentation Hierarchies},
+booktitle = {European Conference on Computer Vision (ECCV)},
+year = {2012}
+}
+</pre>
+</div>
+</li>
+<!-- Item: Pont-Tuset2012b -->
+<li ><p>
+J. Pont-Tuset and F. Marques
+<br><b>Upper-bound assessment of the spatial accuracy of hierarchical region-based image representations</b><br>
+<i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012
+
+
+
+
+<br />
+<a href="javascript:toggleBibtex('Pont-Tuset2012b')">[BibTeX]</a>
+
+
+
+
+<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6288021">[PDF]</a>
+</p>
+<div id="bib_Pont-Tuset2012b" class="bibtex noshow">
+<pre>
+@inproceedings{Pont-Tuset2012b,
+  author = {Pont-Tuset, J. and Marques, F.},
+  title = {Upper-bound assessment of the spatial accuracy of hierarchical region-based image representations},
+  booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  year = {2012}
+}
+</pre>
+</div>
+</li>
+
+
+<!-- Item: Pont-Tuset2010 -->
+<li ><p>
+J. Pont-Tuset and F. Marques
+<br><b>Contour detection using Binary Partition Trees</b><br>
+<i>International Conference on Image Processing (ICIP)</i>,
+
+
+
+
+2010
+
+<br />
+<a href="javascript:toggleBibtex('Pont-Tuset2010')">[BibTeX]</a>
+<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5652339">[PDF]</a>
+</p>
+<div id="bib_Pont-Tuset2010" class="bibtex noshow">
+<pre>
+@inproceedings{Pont-Tuset2010,
+author = {Pont-Tuset, J. and Marques, F.},
+title = {Contour detection using Binary Partition Trees},
+booktitle = {International Conference on Image Processing (ICIP)},
+year = {2010},
+doi = {http://dx.doi.org/10.1109/ICIP.2010.5652339}
+}
+</pre>
+</div>
+</li>
+<!-- Item: Giro-i-Nieto2010a -->
+<li ><p>
+Xavier Giro-i-Nieto, Carles Ventura, Jordi Pont-Tuset, Silvia Cortes and Ferran Marques
+<br><b>System architecture of a web service for Content-Based Image Retrieval</b><br>
+<i>International Conference on Image and Video Retrieval (CIVR)</i>,
+
+
+
+
+2010
+
+<br />
+<a href="javascript:toggleBibtex('Giro-i-Nieto2010a')">[BibTeX]</a>
+<a href="http://dl.acm.org/citation.cfm?doid=1816041.1816093">[PDF]</a>
+</p>
+<div id="bib_Giro-i-Nieto2010a" class="bibtex noshow">
+<pre>
+@inproceedings{Giro-i-Nieto2010a,
+author = {Giro-i-Nieto, Xavier and Ventura, Carles and Pont-Tuset, Jordi and Cortes, Silvia and Marques, Ferran},
+title = {System architecture of a web service for Content-Based Image Retrieval},
+booktitle = {International Conference on Image and Video Retrieval (CIVR)},
+year = {2010},
+doi = {http://doi.acm.org/10.1145/1816041.1816093}
+}
+</pre>
+</div>
+</li>
+<!-- Item: Giro-i-Nieto2013 -->
+<li ><p>
+X. Gir&oacute;-i-Nieto, Manel Martos, Eva Mohedano and J. Pont-Tuset
+<br><b>From Global Image Annotation to Interactive Object Segmentation</b><br>
+<i>Multimedia Tools and Applications</i>,
+
+
+
+
+2013.
+
+<br />
+<a href="javascript:toggleBibtex('Giro-i-Nieto2013')">[BibTeX]</a>
+
+<a href="https://imatge.upc.edu/web/sites/default/files/pub/aGiro-i-Nieto13.pdf">[PDF]</a>
+</p>
+<div id="bib_Giro-i-Nieto2013" class="bibtex noshow">
+<pre>
+@article{Giro-i-Nieto2013,
+author = {Gir&oacute;-i-Nieto, X. and Martos, Manel and Mohedano, Eva and Pont-Tuset, J.},
+title = {From Global Image Annotation to Interactive Object Segmentation},
+journal = {Multimedia Tools and Applications},
+year = {2013},
+doi = {http://dx.doi.org/10.1007/s11042-013-1374-3}
+}
+</pre>
+</div>
+</li>
+</ul>
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
