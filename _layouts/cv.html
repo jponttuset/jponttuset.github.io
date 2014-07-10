@@ -44,6 +44,7 @@
   </div>
   <article>
     <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
     <p align="center" class=bottom-small><img src="{{ site.url }}/images/study.png" alt="Education" width="70" height="70"></p>
     <p align="center">&#8226 I received a <strong>Mathematics</strong> degree and <br><strong>Telecommunication</strong> engineering degree from <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a>.</p>
     <p align="center">&#8226 I attained a <strong>Master</strong>´s degree in Research on Information Technologies.</p>
@@ -67,7 +68,7 @@
     <p align="center" class="bottom-three">&#8226 Ich beginne <strong>Deutsch</strong> zu lernen.</p>
     
     
-    <div class="article-wrap">
+    
     {{ content }}
     </div><!-- /.article-wrap -->
     {% if site.disqus_shortname and page.comments %}
