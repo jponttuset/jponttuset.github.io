@@ -1,0 +1,39 @@
+/*
+	.fitgrd - responsive grid system
+	open http://www.fitgrd.com for more information
+	download at https://github.com/jayalai/fitgrd
+	Licensed under GPL and MIT.
+*/
+
+.fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9,.fg10,.fg11,.fg12 {
+	padding: 2em 0;
+	background: #333;
+	font-size: .9em;
+	margin-bottom: 2%;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+.fg-no-gutter > [class*="fg"] {
+	height: auto;
+	background: none;
+}
+
+/* ======================================= 
+   media queries
+   ======================================= */
+
+
+/* tablet size */   
+@media screen and (max-width: 48em ) {
+	
+	/* css */
+	
+}   
+    
+/* smartphone size */
+@media screen and (max-width: 36.5em ) {
+	
+	/* css */
+
+}
