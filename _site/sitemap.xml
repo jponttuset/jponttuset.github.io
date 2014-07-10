@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:5000</loc>
+        <loc>http://jponttuset.github.io</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:5000/404.html</loc>
+        <loc>http://jponttuset.github.io/404.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/blog/</loc>
+        <loc>http://jponttuset.github.io/blog/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/cv/</loc>
+        <loc>http://jponttuset.github.io/cv/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/feed.xml</loc>
+        <loc>http://jponttuset.github.io/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/index.html</loc>
+        <loc>http://jponttuset.github.io/index.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/publications/</loc>
+        <loc>http://jponttuset.github.io/publications/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/sitemap.xml</loc>
+        <loc>http://jponttuset.github.io/sitemap.xml</loc>
     </url>
     
 
     
     <url>
-        <loc>http://localhost:5000/code-highlighting-post/</loc>
+        <loc>http://jponttuset.github.io/code-highlighting-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/sample-link-post/</loc>
+        <loc>http://jponttuset.github.io/sample-link-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/readability-feature-post/</loc>
+        <loc>http://jponttuset.github.io/readability-feature-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/sample-post-images/</loc>
+        <loc>http://jponttuset.github.io/sample-post-images/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/readability-post/</loc>
+        <loc>http://jponttuset.github.io/readability-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:5000/sample-post/</loc>
+        <loc>http://jponttuset.github.io/sample-post/</loc>
     </url>
     
 </urlset>
