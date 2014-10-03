@@ -29,10 +29,11 @@
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
+<div id="main" role="main">
 <div class="article-author-side">
   {% include _author-bio.html %}
 </div>
-<div id="index">
+<article>
   <h1>{{ page.title }}</h1>
   {% for post in site.posts %}  
   {% unless post.next %}
@@ -53,6 +54,7 @@
       {% endif %}
     </article>
   {% endfor %}
+  </article>
 </div><!-- /#index -->
 
 <div class="footer-wrap">
