@@ -5,14 +5,6 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include _head.html %}
-<style>
-    .bottom-three {
-        margin-bottom: 1.5cm;
-    }
-.bottom-small {
-    margin-bottom: 1cm;
-}
-</style>
 </head>
 
 <body class="post-index">
@@ -37,11 +29,9 @@
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
-
 <div class="article-author-side">
   {% include _author-bio.html %}
 </div>
-
 <div id="index">
   <h1>{{ page.title }}</h1>
   {% for post in site.posts %}  
