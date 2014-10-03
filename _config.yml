@@ -4,7 +4,7 @@ description:      Welcome to my site.
 url:              http://jponttuset.github.io
 #http://localhost:5000
 #http://jponttuset.github.io
-disqus_shortname:
+disqus_shortname: jponttuset
 
 # Owner/author information
 owner:
