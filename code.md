@@ -14,5 +14,5 @@ It all started when my father taught me some notions of Visual Basic, and with t
 
 * [**SEISM: Supervised Evaluation of Image Segmentation Methods**](https://imatge.upc.edu/web/resources/supervised-evaluation-image-segmentation) Toolbox to benchmark image segmentation methods, including our newly-proposed objects and parts measure. From our CVPR 2013 paper.
 
-* [**Supervised Evaluation of Segmentation Hierarchies**](https://imatge.upc.edu/web/resources/supervised-assessment-segmentation-hierarchies) Toolbox to find the best cuts in a hierarchy of regions using combinatorial optimization and solved by CPLEX. From our ECCV 2012 paper.
+* [**Supervised Assessment of Segmentation Hierarchies**](https://imatge.upc.edu/web/resources/supervised-assessment-segmentation-hierarchies) Toolbox to find the best cuts in a hierarchy of regions using combinatorial optimization and solved by CPLEX. From our ECCV 2012 paper.
  
