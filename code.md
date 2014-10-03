@@ -8,4 +8,11 @@ comments: false
 ---
 
 
+It all started when my father taught me some notions of Visual Basic, and with the only help of the code completion tool (yeah, no Google at that time). Since then, I've been enjoying coding and here you can find some of the programs I've wirtten.
 
+* [**Multiscale Combinatorial Grouping**](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/) Current state-of-the-art method for producing segmented object proposals. Given an image, it computes around 5000 proposals of segmented objects in less than 5 seconds on a single thread. From our CVPR 2014 paper.
+
+* [**SEISM: Supervised Evaluation of Image Segmentation Methods**](https://imatge.upc.edu/web/resources/supervised-evaluation-image-segmentation) Toolbox to benchmark image segmentation methods, including our newly-proposed objects and parts measure. From our CVPR 2013 paper.
+
+* [**Supervised Evaluation of Segmentation Hierarchies**](https://imatge.upc.edu/web/resources/supervised-assessment-segmentation-hierarchies) Toolbox to find the best cuts in a hierarchy of regions using combinatorial optimization and solved by CPLEX. From our ECCV 2012 paper.
+ 
