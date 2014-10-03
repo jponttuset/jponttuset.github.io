@@ -2,6 +2,7 @@
 layout: post
 title: Compile CPLEX in C++ with C++11 Functionalities
 description: "How to compile a code that contains C++11 functionalities and CPLEX."
+comments: true
 ---
 
 [CPLEX](http://www.ibm.com/developerworks/downloads/ws/ilogcplex/) is a pretty awesome optimization toolbox from IBM, and it is free for academic use. It can be called from C++ (apart from Matlab, Python, etc.), but it's not the easiest library to compile...
