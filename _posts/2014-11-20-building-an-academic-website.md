@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My experience in building a personal academic website
-description: "How I built my academic website using Jekyll, Github, and Jabref."
+description: "How I built my academic website using Jekyll, Github, Jabref, and Publist."
 comments: true
 ---
 
