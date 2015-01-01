@@ -6,6 +6,7 @@ comments: true
 ---
 
 
+
 In the following tutorials I'll explain how to solve Sudoku puzzles using C++ and opencv. We'll build a program that captures the webcam video, looks for a Sudoku grid, locates and recognizes the numbers, solves the puzzle, and reprojects the result on the grid (augmented-reality); all in real time. Spoiler alert! Here the final result :)  <br />
 <br />
 
