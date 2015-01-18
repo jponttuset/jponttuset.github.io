@@ -13,7 +13,7 @@ In the following tutorials I'll explain how to solve Sudoku puzzles using C++ an
 [![ScreenShot](http://img.youtube.com/vi/OnASlP1SFX0/0.jpg)](https://www.youtube.com/watch?v=OnASlP1SFX0)
 
 <br />
-This first part will be about locating the grid and numbers. You can download the full code from github, here I'll just highlight the main parts to understand the algorithm.
+This first part will be about locating the grid and numbers. You can download the full code from github, here I'll just highlight the main parts to understand the algorithm. Please note that the proposed algorithm is not the optimal in a lot of senses, since it's been designed as an academic example that one can understand without a lot of knowledge about computer vision. This has left out some powerful but more advanced techniques.
 
 ####  1. Capture and show the webcam feed
 First, let's capture and show the camera feed, the code is pretty self-explanatory.
@@ -66,7 +66,20 @@ HoughLines(detected_edges, det_lines, 2, CV_PI/180, 300, 0, 0 );
 The Hough transform is one of those must-know simple and neat ideas in Computer Vision, so if you're not familiar with it, I suggest to take a look at [how it works](http://en.wikipedia.org/wiki/Hough_transform).
 
 ####  3. Filter lines and recognize the Sudoku grid
-Coming soon!
+The result of the previous step is a set of lines detected in the image, represented by their slope and distance to the origin (\rho-\theta representation). The main advantage of this representation is that it can represent any line (no problems with vertical lines as in the y = ax+b representation), but as a drawback, the analytical treatment tends to be more complex.
+
+<br/>
+We first classify the lines into horizontal, vertical, and others, setting thresholds to their slope. We will then sort them in order of their distance to the origin, which will help in next steps.
+
+<br/>
+Here the result
+
+
+<br/>
+To detect the Sudoku grid, we will look for a pattern of ten evenly distributed horizontal and vertical sets of lines. Instead of trying to look for the pattern among lines, we will work with the intersection between them, to make the algorithm more robust to noise in the line detection and the code easier to understand.
+
+<br/>
+We therefore compute the pairwise intersection between all vertical and horizontal lines, and then we select a line in the center (as sorted before) and scan the intersection with the *orthogonal* lines. We then look for ten sets of evenly distributed points, and if we find them we classify the lines creating those points into the ten sets of Sudoku lines. If we find a correct horizontal and vertical sets of ten lines, we have found the Sudoku grid.
 
 ####  4. Extract all 81 Sudoku grid locations
 Coming soon!
