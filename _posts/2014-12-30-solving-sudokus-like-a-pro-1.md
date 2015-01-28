@@ -45,7 +45,7 @@ while(true)
 }
 {% endhighlight %}
 
-![Webcam]({{ site.url }}/images/0-sudoku.png)
+![Webcam]({{ site.url }}/images/0-sudoku.jpg)
 
 <br/>
 We've got our image from the webcam, let's get ours hands on it.
@@ -88,7 +88,7 @@ The result of the previous step is a set of lines detected in the image, represe
 We first classify the lines into horizontal, vertical, and others, setting thresholds to their slope. We will then sort them in order of their distance to the origin, which will help in next steps.
 
 <br/>
-![Hough Classified]({{ site.url }}/images/2-hough-classified-lines.png)
+![Hough Classified]({{ site.url }}/images/2-hough-classified-lines.jpg)
 
 <br/>
 To detect the Sudoku grid, we will look for a pattern of ten evenly distributed horizontal and vertical sets of lines. Instead of trying to look for the pattern among lines, we will work with the intersection between them, to make the algorithm more robust to noise in the line detection and the code easier to understand.
