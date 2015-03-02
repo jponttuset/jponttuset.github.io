@@ -33,4 +33,4 @@ What's the problem? The number of elements that the shell can handle in the argu
 ls | grep  val2014 | xargs mv -t destination
 {% endhighlight %}
 
-The ```ls``` command lists all files and ```grep``` filters the ones we want to move. Then, the list passes to ```xargs```, which executes the ```mv``` command once per member of the list. The ```-t``` option (Note that the ```-t``` option (works only on GNU systems) allows to exchange the order of the parameters of ```mv```. More info [here](http://unix.stackexchange.com/questions/128559/solving-mv-argument-list-too-long).
+The ```ls``` command lists all files and ```grep``` filters the ones we want to move. Then, the list passes to ```xargs```, which executes the ```mv``` command once per member of the list. The ```-t``` option (Note that the ```-t``` option works only on GNU systems) allows to exchange the order of the parameters of ```mv```. More info [here](http://unix.stackexchange.com/questions/128559/solving-mv-argument-list-too-long).
