@@ -30,7 +30,7 @@ Argument list too long
 What's the problem? The number of elements that the shell can handle in the arguments is limited, and we may be trying to move a larger number of files. Luckily, we can find a workaround by using ```xargs```:
 
 {% highlight text %}
-find *val2014*.mat | xargs mv -t destination
+ls | grep  val2014 | xargs mv -t destination
 {% endhighlight %}
 
-The ```find``` command lists all the files we want to move, and then the list is passes to ```xargs```, which executes the ```mv``` command once per member of the list. The ```-t``` option (Note that the ```-t``` option (works only on GNU systems) allows to exchange the order of the parameters of ```mv```. More info [here](http://unix.stackexchange.com/questions/128559/solving-mv-argument-list-too-long).
+The ```ls``` command lists all files, and then ```grep``` filters the ones we want to move. Then the list is passes to ```xargs```, which executes the ```mv``` command once per member of the list. The ```-t``` option (Note that the ```-t``` option (works only on GNU systems) allows to exchange the order of the parameters of ```mv```. More info [here](http://unix.stackexchange.com/questions/128559/solving-mv-argument-list-too-long).
