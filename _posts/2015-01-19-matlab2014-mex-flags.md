@@ -14,7 +14,7 @@ In Matlab 2014, however, things got a little bit more complicated than that. Goo
 The final steps are as follow:
 
 * Run ```mex -setup C++``` or ```mex -setup C```, depending on which language you are gonna compile. This will create the corresponding XML file. 
-* Open the file ```~/.matlab/mex_C++_glnxa64.xml``` or  ```~/.matlab/mex_C_glnxa64.xml```.
+* Open the file ```~/.matlab/mex_C++_glnxa64.xml``` or  ```~/.matlab/mex_C_glnxa64.xml```. In some versions of Matlab it's in ```~/.matlab/R2014a/mex_C++_glnxa64.xml```.
 * Edit the CXXFLAGS line to something like: ```CXXFLAGS="-ansi -fexceptions -fPIC -fno-omit-frame-pointer -pthread -std=c++11"```
 
 And you're good to go!
