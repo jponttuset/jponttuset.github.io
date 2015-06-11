@@ -23,5 +23,8 @@ Toolbox to find the best cuts in a hierarchy of regions using combinatorial opti
  
 ###Didactical
 
-* [**Real-Time Augmented Reality Sudoku Solver**](http://jponttuset.github.io/solving-sudokus-like-a-pro-1/)<br>
-Academic example code to capture a camera feed, locate a Sudoku grid, find and recognize the numbers, solve it in real time, and overlay the results.
+* [**Solving Sudokus like a Pro**](http://jponttuset.github.io/solving-sudokus-like-a-pro-1/)<br>
+Code to capture a camera feed, locate a Sudoku grid, find and recognize the numbers, solve it in real time, and overlay the results.
+
+* [**Web Scraping**](http://jponttuset.github.io/deep-learning-scraping/)<br>
+Demo to answer whether deep learning is indeed in fashion in computer vision. The code scrapes the paper titles of latest vision conferences from the web and computes the percentage of *deep-learning-related* papers.
