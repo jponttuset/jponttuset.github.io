@@ -41,8 +41,10 @@ Mat sudoku_box(frame_gray, cv::Rect(ulx, uly, drx-ulx, dry-uly));
 
 Here how a result looks like in practice:
 
+<br />
 [Todo] Example cropped image
 
+<br />
 We now proced to binarize the image using local thresholding, which is robust to local shadings. We could apply the OCR directly to this image and let it decide the binarization, but we found that binarizing the image ourselves worked better.
 
 {% highlight ruby %}
@@ -55,7 +57,8 @@ adaptiveThreshold(sudoku_box, sudoku_th, 255,
 
 [Todo] Example thresholded image, and thresholded grid positions.
 
-Now that we have the binarized sub-images of the grid, let's ru the OCR on them.
+<br />
+Now that we have the binarized sub-images of the grid, let's run the OCR on them.
 {% highlight ruby %}
 /* Process all boxes and classify whether
  *  - They are empty (we'll say 0) or
