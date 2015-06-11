@@ -107,4 +107,6 @@ Once we have recognized and located the 100 intersections between 10 horizontal 
 ![Cells]({{ site.url }}/images/4-cells.png)
 
 <br/>
-You can find the code from this blog post in [GitHub](https://github.com/jponttuset/sudoku). The rest of the algorithm is coming really soon!
+You can find the code from this blog post in [GitHub](https://github.com/jponttuset/sudoku). The rest of the algorithm is described in a second blog post [here]({{ site.url }}/solving-sudokus-like-a-pro-2/).
+
+
