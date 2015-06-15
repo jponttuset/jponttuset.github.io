@@ -39,10 +39,17 @@ if(ulx>sx or uly>sy or drx>sx or dry>sy)
 Mat sudoku_box(frame_gray, cv::Rect(ulx, uly, drx-ulx, dry-uly));
 {% endhighlight %}
 
-Here how a result looks like in practice:
+Here how an original frame looks like in practice:
 
 <br />
-[Todo] Example cropped image
+![Frame]({{ site.url }}/images/Sudoku/Frame.png)
+
+<br />
+And here the automatically cropped image showing the Sudoku grid:
+
+<br />
+![Frame]({{ site.url }}/images/Sudoku/SudokuBox.png)
+
 
 <br />
 We now proced to binarize the image using local thresholding, which is robust to local shadings. We could apply the OCR directly to this image and let it decide the binarization, but we found that binarizing the image ourselves worked better.
@@ -55,7 +62,16 @@ adaptiveThreshold(sudoku_box, sudoku_th, 255,
                                CV_THRESH_BINARY_INV, 101, 1);
 {% endhighlight %}
 
-[Todo] Example thresholded image, and thresholded grid positions.
+Here the grid after binarization:
+
+<br />
+![Frame]({{ site.url }}/images/Sudoku/SudokuTh.png)
+
+<br />
+As we can see, the grid is not perfectly aligned. That's why we reduced the size of the small boxes in previous steps. We can now cut the thresholded image on each of the small boxes detected in the previous post and here we have some results:
+
+<br />
+![Frame]({{ site.url }}/images/Sudoku/BoxesTh.png)
 
 <br />
 Now that we have the binarized sub-images of the grid, let's run the OCR on them.
@@ -118,7 +134,10 @@ unsigned int recognize_digit(Mat& im, tesseract::TessBaseAPI& tess)
 }
 {% endhighlight %}
 
-[Todo] Image with the recognized digits overlayed.
+Here the results of the recognition of the numbers present in the image.
+
+<br />
+![Frame]({{ site.url }}/images/Sudoku/SudokuNumbers.png)
 
 ####  2. Solving the Sudoku
 We now have all available digits recognized and we also now where the gaps are, so the next step is to solve the Sudoku.

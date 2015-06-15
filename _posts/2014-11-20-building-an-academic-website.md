@@ -43,7 +43,7 @@ The first step is to install it, as explained in the [Publist](http://www.seas.u
 Now let us imagine we want the publication in our webpage to have a link appearing as `[PDF]` pointing to `http://here_is_my_pdf.com`. The first thing we need to do is tell Jabref to include a custom field named `pllinks`, by going to `Options > Customize entry types`, and adding the optional field `pllinks` to all the types of publications we want, like in the image below. (You have to type "pllinks" in the textbox, it's not in the list.)
 
 <br />
-![Screenshoot of pllinks](../images/jabref_pllinks.png)
+![Screenshoot of pllinks](../images/BuildingAcademicWeb/jabref_pllinks.png)
 
 <br />
 Once the field is active, we can add all links we want in the format:
@@ -51,7 +51,7 @@ Once the field is active, we can add all links we want in the format:
 If we want to add more links, we separate them by `;` as in the example in the image:
 
 <br />
-![Screenshoot of pllinks](../images/jabref_pllinks2.png)
+![Screenshoot of pllinks](../images/BuildingAcademicWeb/jabref_pllinks2.png)
 
 <br />
 You now simply export the publications you want by selecting `File > Export selected entries` and select `Publist2html` in the `File format` field. This should give you a piece of html code ready to paste into your website.

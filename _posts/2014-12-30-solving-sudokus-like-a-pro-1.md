@@ -45,7 +45,7 @@ while(true)
 }
 {% endhighlight %}
 
-![Webcam]({{ site.url }}/images/0-sudoku.jpg)
+![Webcam]({{ site.url }}/images/Sudoku/0-sudoku.jpg)
 
 <br/>
 We've got our image from the webcam, let's get ours hands on it.
@@ -62,7 +62,7 @@ blur( frame_gray, blurred_frame_gray, Size(3,3) );
 Canny( blurred_frame_gray, detected_edges, lowThreshold, lowThreshold*ratio2, kernel_size );
 {% endhighlight %} 
 
-![Canny]({{ site.url }}/images/1-canny.png)
+![Canny]({{ site.url }}/images/Sudoku/1-canny.png)
 
 <br/>
 The result of the contour detector is a binary image where each pixel is classified either as being contour (white) or not (black).
@@ -78,7 +78,7 @@ vector<Vec2f> det_lines;
 HoughLines(detected_edges, det_lines, 2, CV_PI/180, 300, 0, 0 );
 {% endhighlight %} 
 
-![Hough Raw]({{ site.url }}/images/2-hough-raw-lines.png)
+![Hough Raw]({{ site.url }}/images/Sudoku/2-hough-raw-lines.png)
 
  
 ####  3. Filter lines and recognize the Sudoku grid
@@ -88,7 +88,7 @@ The result of the previous step is a set of lines detected in the image, represe
 We first classify the lines into horizontal, vertical, and others, setting thresholds to their slope. We will then sort them in order of their distance to the origin, which will help in next steps.
 
 <br/>
-![Hough Classified]({{ site.url }}/images/2-hough-classified-lines.jpg)
+![Hough Classified]({{ site.url }}/images/Sudoku/2-hough-classified-lines.jpg)
 
 <br/>
 To detect the Sudoku grid, we will look for a pattern of ten evenly distributed horizontal and vertical sets of lines. Instead of trying to look for the pattern among lines, we will work with the intersection between them, to make the algorithm more robust to noise in the line detection and the code easier to understand.
@@ -97,14 +97,14 @@ To detect the Sudoku grid, we will look for a pattern of ten evenly distributed 
 We therefore compute the pairwise intersection between all vertical and horizontal lines, and then we select a line in the center (as sorted before) and scan the intersection with the *orthogonal* lines. We then look for ten sets of evenly distributed points, and if we find them we classify the lines creating those points into the ten sets of Sudoku lines. If we find a correct horizontal and vertical sets of ten lines, we have found the Sudoku grid.
 
 <br/>
-![Grid]({{ site.url }}/images/3-intersections.png)
+![Grid]({{ site.url }}/images/Sudoku/3-intersections.png)
 
 
 ####  4. Extract all 81 Sudoku cells locations
 Once we have recognized and located the 100 intersections between 10 horizontal and 10 vertical lines, we only need to extract the rectangles between all four neighboring intersections. We reduce the rectangle a little to be robust to noise and misalignments, and we have the 81 cells we were looking for.
 
 <br/>
-![Cells]({{ site.url }}/images/4-cells.png)
+![Cells]({{ site.url }}/images/Sudoku/4-cells.png)
 
 <br/>
 You can find the code from this blog post in [GitHub](https://github.com/jponttuset/sudoku). The rest of the algorithm is described in a second blog post [here]({{ site.url }}/solving-sudokus-like-a-pro-2/).
