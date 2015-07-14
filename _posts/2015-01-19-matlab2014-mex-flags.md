@@ -18,3 +18,7 @@ The final steps are as follow:
 * Edit the CXXFLAGS line to something like: ```CXXFLAGS="-ansi -fexceptions -fPIC -fno-omit-frame-pointer -pthread -std=c++11"```
 
 And you're good to go!
+
+<br/>
+You might also need to change the compiler used to a non-default one. You can do so by calling mex with ```mex GCC='/path/to/bin/g++' you_file.cpp```.
+
