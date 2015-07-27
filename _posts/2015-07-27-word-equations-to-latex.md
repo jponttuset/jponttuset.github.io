@@ -5,30 +5,7 @@ description: "How to get the LaTeX code, including equations, out of a Word docu
 comments: true
 ---
 
-<style>
-.tex sub, .latex sub, .latex sup {
-  text-transform: uppercase;
-}
-
-.tex sub, .latex sub {
-  vertical-align: -0.5ex;
-  margin-left: -0.1667em;
-  margin-right: -0.125em;
-}
-
-.tex, .latex, .tex sub, .latex sub {
-  font-size: 1em;
-}
-
-.latex sup {
-  font-size: 0.85em;
-  vertical-align: 0.15em;
-  margin-left: -0.36em;
-  margin-right: -0.15em;
-}
-</style>
-
-Maybe you have some old documents with nasty equations written in Word (because you were forced to &#128521;) but now you need to re-use them in <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> (maybe for your dissertation), and of course you don't want to re-type everything.
+Maybe you have some old documents with nasty equations written in Word, but now you need to re-use them in LaTeX (maybe for your dissertation), and of course you don't want to re-type everything.
 Thankfully, there exists [writer2latex](http://writer2latex.sourceforge.net) that will help you do that. Here are the steps:
 
 1. writer2latex takes a LibreOffice document as input, so first thing is to **download and install [LibreOffice](http://writer2latex.sourceforge.net)**, open your Word document (`.docx` or `.doc`) and **save it as `.odt`**.
