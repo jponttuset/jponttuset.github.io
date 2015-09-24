@@ -28,3 +28,8 @@ Code to capture a camera feed, locate a Sudoku grid, find and recognize the numb
 
 * [**Web Scraping**](http://jponttuset.github.io/deep-learning-scraping/)<br>
 Demo to answer whether deep learning is indeed in fashion in computer vision. The code scrapes the paper titles of latest vision conferences from the web and computes the percentage of *deep-learning-related* papers.
+
+###Web
+
+* [**Boosting Object Proposals: From Pascal to COCO**](http://www.vision.ee.ethz.ch/~biwiproposals/boosting-coco/)<br>
+Webpage to showcase the results of our publication. It involved a decent amount of JavaScript, D3.js, PHP, and MySQL.
