@@ -40,7 +40,7 @@ links:
 timezone:    Europe/Zurich
 future:      true
 #pygments:    true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
