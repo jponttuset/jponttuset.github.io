@@ -21,7 +21,7 @@ Toolbox to benchmark image segmentation methods, including our newly-proposed ob
 * [**Supervised Assessment of Segmentation Hierarchies**](https://imatge.upc.edu/web/resources/supervised-assessment-segmentation-hierarchies)<br>
 Toolbox to find the best cuts in a hierarchy of regions using combinatorial optimization and solved by CPLEX. From our ECCV 2012 paper.
  
-###Didactical
+### Didactical
 
 * [**Solving Sudokus like a Pro**](http://jponttuset.github.io/solving-sudokus-like-a-pro-1/)<br>
 Code to capture a camera feed, locate a Sudoku grid, find and recognize the numbers, solve it in real time, and overlay the results.
@@ -29,7 +29,7 @@ Code to capture a camera feed, locate a Sudoku grid, find and recognize the numb
 * [**Web Scraping**](http://jponttuset.github.io/deep-learning-scraping/)<br>
 Demo to answer whether deep learning is indeed in fashion in computer vision. The code scrapes the paper titles of latest vision conferences from the web and computes the percentage of *deep-learning-related* papers.
 
-###Web
+### Web
 
 * [**Boosting Object Proposals: From Pascal to COCO**](http://www.vision.ee.ethz.ch/~biwiproposals/boosting-coco/)<br>
 Webpage to showcase the results of our publication. It involved a decent amount of JavaScript, D3.js, PHP, and MySQL.
