@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Has deep learning reached a plateau in computer vision?
-description: "Has deep learning reached a plateau in computer vision?"
+title: "ICCV 2015: Has deep learning reached a plateau in computer vision?"
+description: "ICCV 2015: Has deep learning reached a plateau in computer vision?"
 comments: true
 ---
 

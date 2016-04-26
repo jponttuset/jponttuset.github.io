@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Is deep learning in fashion? Scraping vision papers
-description: "Is deep learning in fashion? Scraping vision papers."
+title: "CVPR 2015: Is deep learning in fashion? Scraping vision papers"
+description: "CVPR 2015: Is deep learning in fashion? Scraping vision papers."
 comments: true
 ---
 
