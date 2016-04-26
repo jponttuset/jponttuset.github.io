@@ -5,7 +5,7 @@ description: "Has deep learning reached a plateau in computer vision?"
 comments: true
 ---
 
-This is my customary update of percentage of <i>depp-learning papers</i> in the major vision conferences. At CVPR 2015, I described its [exponential growth]({{ site.url }}/deep-learning-scraping/), and after ICCV 2015 I wondered whether it had [plateaued]({{ site.url }}/deep-learning-plateau/).<br>
+This is my customary update of percentage of <i>deep-learning papers</i> in the major vision conferences. At CVPR 2015, I described its [exponential growth]({{ site.url }}/deep-learning-scraping/), and after ICCV 2015 I wondered whether it had [plateaued]({{ site.url }}/deep-learning-plateau/).<br>
 <br>
 Since the CVF has not released the papers yet, I had to adapt my script to take the titles from the [program](http://cvpr2016.thecvf.com/program/main_conference).
 You can download all titles in TXT format in [here](https://www.dropbox.com/sh/nhsric6bksopot3/AADz3BWN6I8i1VsDNLOpvdDAa?dl=0) if you want to play around.<br>
