@@ -44,16 +44,16 @@ conferences = ["CVPR2013","ICCV2013","CVPR2014","CVPR2015","ICCV2015"]
 
 for conf in conferences:
     # Get the HTML text and find the classes of type 'ptitle'
-    response = requests.get("http://www.cv-foundation.org/openaccess/"+conf+".p$
+    response = requests.get("http://www.cv-foundation.org/openaccess/"+conf+".py")
     tree = html.fromstring(response.text)
     papers = tree.find_class('ptitle')
-
+    
     # Get all titles in a list
     all_titles = []
     for paper in papers:
         title = paper.xpath('a/text()')
         all_titles.append(title[0])
-
+    
     # Search for the 'deep'-inducing keywords
     keywords = ['deep', 'cnn', 'convolutional', 'neural network']
     count = 0
@@ -64,4 +64,5 @@ for conf in conferences:
                 break
     percent = count/float(len(all_titles))*100
     print("%s: %.2f%% (%d out of %d)" % (conf, percent, count, len(all_titles)))
+
 {% endhighlight %}
