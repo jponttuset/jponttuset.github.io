@@ -7,5 +7,5 @@ modified: 8-7-2014
 comments: false
 ---
 
-You can also download my [résumé in PDF](https://www.dropbox.com/s/p9qvdtx3m04s3yn/Resume-PontTuset.pdf?dl=0), or my [full CV](https://www.dropbox.com/s/k97xdtswlfefn8r/CV-PontTuset.pdf?dl=0).
+You can also download my [résumé in PDF](https://www.dropbox.com/s/mfal5tp0q3gnr5t/Resume-PontTuset.pdf?dl=0), or my [full CV](https://www.dropbox.com/s/zwdw1jfsc0eech3/CV-PontTuset.pdf?dl=0).
 
