@@ -4,7 +4,7 @@ title: Me in a Nutshell
 description: "Jordi Pont-Tuset's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: mountain.jpg
+  feature: trees.jpg
 ---
 
 I'm a post-doctoral researcher in [Prof. Luc Van Gool](http://www.vision.ee.ethz.ch/members/get_member.cgi?id=1)'s [ETHZ vision group](http://www.vision.ee.ethz.ch/index.en.html).
