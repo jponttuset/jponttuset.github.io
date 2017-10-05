@@ -5,7 +5,7 @@ description: "CVPR 2017: Deep learning and the new kids in class"
 comments: true
 ---
 
-So here we are again to measure the presence of deep learning in the major vision conferences, with one more to the list. Here you can check the previous [posts]({{ site.url }}/deep-learning-scraping/) [of]({{ site.url }}/deep-learning-plateau/) [the]({{ site.url }}/deep-learning-plateau/deep-learning-takes-over-again/) [saga]({{ site.url }}/deep-learning-evolution/).<br>
+So here we are again to measure the presence of deep learning in the major vision conferences, with one more to the list. Here you can check the previous [posts]({{ site.url }}/deep-learning-scraping/) [of]({{ site.url }}/deep-learning-plateau/) [the]({{ site.url }}/deep-learning-takes-over-again/) [saga]({{ site.url }}/deep-learning-evolution/).<br>
 <br>
 Here the evolution of the results using XKCD style, as described in this [blog post]({{ site.url }}/xkcd-deep-learning/):
 <br />
