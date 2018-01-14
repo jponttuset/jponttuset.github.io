@@ -17,5 +17,5 @@ and I collaborated with <a href="http://www.cs.berkeley.edu/~malik/" target="_bl
 and with the startup <a href="http://fezoo.cat" target="_blank">Fezoo</a>.
 
 <br />
-I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a> under the supervision of <a href="https://imatge.upc.edu/web/ferran" target="_blank">Prof. Ferran Marques</a>.
+I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a>.
 
