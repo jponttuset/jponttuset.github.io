@@ -11,3 +11,12 @@ Feel free to adapt this theme to your site without linking back to me or includi
 ```
 jekyll serve --watch --port 5000
 ```
+
+## How to contribute
+
+- Fork this repository
+- Clone from your own repository
+- Make a new branch `git checkout -b dev`
+- Make some magics
+- Push it!
+- Create pull request
