@@ -7,8 +7,7 @@ image:
   feature: trees.jpg
 ---
 
-I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a> 
-and part of the advisory board of <a href="http://www.vilynx.com/index.html" target="_blank">Vilynx</a>.
+I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a>.
 
 <br />
 Previously, I worked at <a href="http://www.vision.ee.ethz.ch/index.en.html" target="_blank">ETHZ</a>
