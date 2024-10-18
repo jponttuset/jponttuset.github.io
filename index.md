@@ -7,7 +7,7 @@ image:
   feature: trees.jpg
 ---
 
-I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a>.
+I am a research scientist at <a href="https://deepmind.google" target="_blank">Google DeepMind</a>.
 
 <br />
 Previously, I worked at <a href="http://www.vision.ee.ethz.ch/index.en.html" target="_blank">ETHZ</a>

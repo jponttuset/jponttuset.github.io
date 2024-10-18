@@ -3,12 +3,20 @@ layout: page
 permalink: /code/
 title: Some Code I've Written
 tags: [code]
-modified: 3-10-2014
+modified: 18-10-2024
 comments: false
 ---
 
 
-It all started when my father taught me some notions of Visual Basic, and with the priceless help of the code completion tool (yeah, no Google at that time). Since then, I've been enjoying coding and here you can find some of the programs I've written.
+It all started when my father taught me some notions of Visual Basic, and with the priceless help of the code completion tool (yeah, no Google at that time, let alone LLMs). Since then, I've been enjoying coding and here you can find some of the programs I've written.
+
+### Didactical
+
+* [**Solving Sudokus like a Pro**](http://jponttuset.github.io/solving-sudokus-like-a-pro-1/)<br>
+Code to capture a camera feed, locate a Sudoku grid, find and recognize the numbers, solve it in real time, and overlay the results.
+
+* [**Web Scraping**](http://jponttuset.github.io/deep-learning-scraping/)<br>
+Demo to answer whether deep learning is indeed in fashion in computer vision. The code scrapes the paper titles of latest vision conferences from the web and computes the percentage of *deep-learning-related* papers.
 
 ### Research
 
@@ -24,13 +32,6 @@ Toolbox to benchmark image segmentation methods, including our newly-proposed ob
 * [**Supervised Assessment of Segmentation Hierarchies**](https://imatge.upc.edu/web/resources/supervised-assessment-segmentation-hierarchies)<br>
 Toolbox to find the best cuts in a hierarchy of regions using combinatorial optimization and solved by CPLEX. From our ECCV 2012 paper.
  
-### Didactical
-
-* [**Solving Sudokus like a Pro**](http://jponttuset.github.io/solving-sudokus-like-a-pro-1/)<br>
-Code to capture a camera feed, locate a Sudoku grid, find and recognize the numbers, solve it in real time, and overlay the results.
-
-* [**Web Scraping**](http://jponttuset.github.io/deep-learning-scraping/)<br>
-Demo to answer whether deep learning is indeed in fashion in computer vision. The code scrapes the paper titles of latest vision conferences from the web and computes the percentage of *deep-learning-related* papers.
 
 ### Web
 
